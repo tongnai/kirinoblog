@@ -3,26 +3,36 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "KIRINO",
-  description: "项目中遇到的问题",
+  description: "在线文档",
+  srcDir: './src',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '项目难点', link: '/project' },
+      { text: 'VUE', link: '/vue' },
+      { text: 'JS', link: '/js' },
     ],
-
+    search: {
+      provider: 'local'
+    },
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '项目难点', link: '/project' },
+          { text: 'VUE', link: 'VUE' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/tongnai' }
+    ],
+    footer: {
+      message: '版权所有',
+      copyright: 'Copyright © 2024-present KIRINO'
+    }
   }
 })

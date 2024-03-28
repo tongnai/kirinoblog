@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "KIRINO"
+  text: "一个随便写写的blog"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 首页
+      link: /
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 去BiliBili
+      link: https://space.bilibili.com/33717642?spm_id_from=333.1007.0.0
 
 features:
   - title: Feature A
