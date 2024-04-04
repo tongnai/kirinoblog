@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "KIRINO"
   text: "一个随便写写的blog"
-  tagline: My great project tagline
+  tagline: 记录工作遇到一些问题
   actions:
     - theme: brand
       text: 首页
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 去BiliBili
       link: https://space.bilibili.com/33717642?spm_id_from=333.1007.0.0
+    - theme: alt
+      text: vitePress
+      link: https://vitepress.dev/
 
 features:
   - title: Feature A
